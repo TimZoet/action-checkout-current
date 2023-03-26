@@ -1,0 +1,9 @@
+name: 'Checkout current repository'
+description: 'Checkout current repository to source folder and install profiles to the local Conan cache.'
+runs:
+  using: "composite"
+  steps:
+      - name: Checkout current repository
+        uses: actions/checkout@v3
+        with:
+          path: source
