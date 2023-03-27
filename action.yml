@@ -1,5 +1,5 @@
 name: 'Checkout current repository'
-description: 'Checkout current repository to source folder and install profiles to the local Conan cache.'
+description: 'Checkout current repository to source folder.'
 runs:
   using: "composite"
   steps:
